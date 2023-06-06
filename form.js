@@ -24,7 +24,7 @@ function TodoForm({addTodo}) {
             className="input"
             // value going to be value we just defined in the state of application
             value={value}
-            placeholder="Add ToDo ..."
+            placeholder="Add a new todo item here..."
             // to set value in our input, enter expression that takes our event and set our value and take the value that was entered, accessed by the following.  Will give us the input
             onChange={e => setValue(e.target.value)}
             />

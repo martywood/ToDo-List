@@ -19,7 +19,7 @@ function App(){
       isCompleted: false,
     },
     {
-      text: 'book a hotel',
+      text: 'book hotel for trip',
       isCompleted: false,
     }                        
   ]);
